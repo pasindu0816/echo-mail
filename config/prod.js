@@ -4,5 +4,11 @@ module.exports = {
     mongoURI: process.env.MONGO_URI,
     cookieKey: process.env.COOKIE_KEY,
     stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
-    stripeSecretKey: process.env.STRIPE_SECRET_KEY
+    stripeSecretKey: process.env.STRIPE_SECRET_KEY,
+    mailGunKey: process.env.MAIL_GUN_KEY,
+    mailGunDomain: process.env.MAIL_GUN_DOMAIN,
+    mailerSendKey: process.env.MAILER_SEND_KEY,
+    mailtrapUser: process.env.MAIL_TRAP_USER,
+    mailtrapPass: process.env.MAIL_TRAP_PASS,
+    redirectDomain: process.env.REDIRECT_DOMAIN
 };
